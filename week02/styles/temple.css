@@ -38,6 +38,15 @@ section {
     background-color: #abe;
     font-size: 0.9rem;
 }
+
+section p {
+    margin: 10px;
+}
+
+ul {
+    margin: 10px 20px;
+}
+
 footer {
     font-size: 0.9rem
 }
