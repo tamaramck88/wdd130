@@ -92,3 +92,6 @@ footer {
   color: #000;
   position: right;
 }
+.indented {
+  margin-left: 2rem;
+}
