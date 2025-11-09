@@ -8,6 +8,8 @@
 nav {
     background-color: darkblue;
     padding: 10px;
+    height: auto;
+    width: auto;
 }
 nav a {
     color: white;
@@ -17,8 +19,6 @@ nav a {
 }
 h1 {
     color: darkblue;
-    text-align: center;
-    border: 1px solid black;
 }
 img {
     width: 150px;
