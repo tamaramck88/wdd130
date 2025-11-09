@@ -1,9 +1,9 @@
 :root {
-    --main-bg-color: gray;
-    --nav-bg-color: darkblue;
-    --nav-text-color: black;
-    --aside-bg-color: #eee;
-    --aside-text-color: #333;
+  --heading-background-color: #f06;
+  --heading-text-color: #333;
+  --heading-font: 'Montserrat', Helvetica, sans-serif;
+  --padding: 1rem;
+  --border: 1px solid rgb(0 0 0 / 0.1);
 }
 nav {
     background-color: darkblue;
@@ -18,7 +18,10 @@ nav a {
     display: block;
 }
 h1 {
-    color: darkblue;
+  background-color: var(--heading-background-color);
+  color: var(--heading-text-color);
+  font-family: var(--heading-font);
+  padding: var(--padding);
 }
 img {
     width: 150px;
