@@ -45,6 +45,7 @@ img {
 }
 p {
     padding: 0;
+    margin: 1rem;
 }
 main {
     max-width: 840px;
@@ -84,9 +85,10 @@ footer {
 }
 /* Class Selectors */
 .box {
-  margin: 1rem;
+  margin: 3rem;
   border: 1px solid rgb(0 0 0 / 10%);
   padding: 1rem;
   background-color: #ddd;
   color: #000;
+  position: right;
 }
