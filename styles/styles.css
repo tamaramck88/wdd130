@@ -1,7 +1,7 @@
 :root {
-    --main-bg-color: lightgray;
+    --main-bg-color: gray;
     --nav-bg-color: darkblue;
-    --nav-text-color: white;
+    --nav-text-color: black;
     --aside-bg-color: #eee;
     --aside-text-color: #333;
 }
