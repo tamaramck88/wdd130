@@ -1,17 +1,11 @@
-h1 {
-    background-color: darkblue;
-    color: white;
-    padding: 16px;
-    text-align: center;
-}
 nav {
     background-color: darkblue;
     padding: 10px;
 }
 nav a {
     color: white;
-    display: block;
-    padding: 20px;
+    text-decoration: block;
+    margin: 20px;
 }
 h1 {
     color: darkblue;
@@ -45,6 +39,9 @@ aside img {
 main img {
     width: 150px;
     height: auto;
+<<<<<<< HEAD
+}
+=======
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
@@ -54,3 +51,4 @@ footer {
     border-top: 1px solid #000;
     text-align: center;
 }
+>>>>>>> 45b261d27fb9389a2bc4249375274b8a9d225780
