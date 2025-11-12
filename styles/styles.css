@@ -98,13 +98,13 @@ h1, h2 {
 }
 
 .profile-img {
-  float: right;                 /* keeps image on the right side of text */
-  width: 300px;                 /* larger size */
-  max-width: 100%;              /* responsive */
-  height: auto;                 /* keeps aspect ratio */
-  border-radius: 8px;
-  margin: 0 0 1rem 1.5rem;      /* space between image and text */
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  float: right;            /* Align to the right */
+  width: 150px;            /* Small size like the screenshot */
+  height: auto;            /* Maintain aspect ratio */
+  margin: 0 0 1rem 1rem;   /* Space between image and text */
+  border: 1px solid black; /* Add border like your other images */
+  box-shadow: 0 0 30px gray; /* Same shadow effect */
+  border-radius: 4px; 
 }
 
 ul {
@@ -139,9 +139,12 @@ footer {
 /* ===========================
    RESPONSIVE DESIGN
 =========================== */
-@media (max-width: 768px) {
-  .content-layout {
-    flex-direction: column;
+@media (max-width: 600px) {
+  .profile-img {
+    float: none;
+    display: block;
+    margin: 1rem auto;
+    width: 100px; /* even smaller on mobile */
   }
 
   .profile-img {
@@ -153,3 +156,4 @@ footer {
   .box {
     max-width: 100%;
   }
+}
