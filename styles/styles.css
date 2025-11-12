@@ -90,10 +90,7 @@ footer {
   padding: 1rem;
   background-color: #ddd;
   color: #000;
-  .box {
   position: relative; 
-}
-
 }
 .indent {
   padding-left: 2rem;
@@ -126,4 +123,28 @@ nav a {
 
 nav a:hover {
   color: #ffd700;               
+}
+.intro {
+  display: flex;
+  flex-wrap: wrap;           /* allows it to stack on small screens */
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  background-color: white;
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.intro img {
+  max-width: 250px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.intro .text {
+  flex: 1;                  /* lets text take remaining space */
 }
