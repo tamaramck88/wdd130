@@ -51,14 +51,13 @@ main {
     max-width: 840px;
 }
 aside {
-    width: 20em;
-    margin: 1rem;
-    border: 1px solid rgb(0 0 0 / 0.2); /* 1 */
-    padding: 1rem;
-    background-color: #eee;
-    color: #333;
-    text-align: center;
-    position: relative;
+  float: left;
+  width: 250px;
+  margin: 1rem 2rem 1rem 0; /* 1 */
+  background-color: #eee;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 8px;
 }
 aside img {
     width: 200px;
