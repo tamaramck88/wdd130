@@ -76,12 +76,13 @@ footer {
 }
 /* Class Selectors */
 .box {
-  margin: 3rem;
-  border: 1px solid rgb(0 0 0 / 10%);
-  padding: 1rem;
+  max-width: 400px;            /* limits how wide the box can be */
+  margin: 1.5rem auto;         /* smaller margin, centered horizontally */
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 0.8rem 1rem;        /* slightly smaller padding */
   background-color: #ddd;
-  color: #000;
-  position: relative; 
+  border-radius: 6px;          /* optional: rounded corners */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); 
 }
 .indent {
   padding-left: 2rem;
