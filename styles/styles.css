@@ -38,7 +38,7 @@ h1 {
 }
 img {
     width: 150px;
-    height: auto;
+    height: 100px;
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
