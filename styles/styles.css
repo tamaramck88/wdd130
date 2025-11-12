@@ -90,8 +90,18 @@ footer {
   padding: 1rem;
   background-color: #ddd;
   color: #000;
-  position: top right;
+  .box {
+  position: relative; 
+}
+
 }
 .indent {
   padding-left: 2rem;
+}
+@media (min-width: 768px) {
+  .layout {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+  }
 }
