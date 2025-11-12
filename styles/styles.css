@@ -1,131 +1,155 @@
+/* ===========================
+   GLOBAL STYLES
+=========================== */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 :root {
-  --heading-background-color: lightgray;
-  --heading-text-color: #333;
+  --primary-color: #003366;
+  --accent-color: #ddd;
+  --background: #f4f4f4;
+  --text-color: #333;
   --heading-font: 'Montserrat', Helvetica, sans-serif;
-  --padding: 1rem;
-  --border: 1px solid rgb(0 0 0 / 0.1);
+  --body-font: 'Roboto', Helvetica, sans-serif;
 }
+
+/* ===========================
+   BODY & HEADER
+=========================== */
 body {
-    font-family: Roboto, Helvetica, sans-serif;
-    font-size: 16px;
-    margin: 10px;
-    padding: 10px;
-    background-color: #f4f4f4;
-    color: #333;
+  font-family: var(--body-font);
+  background-color: var(--background);
+  color: var(--text-color);
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
 }
+
+header {
+  background-color: var(--primary-color);
+  padding: 1rem 0;
+  text-align: center;
+}
+
 nav {
-    background-color: darkblue;
-    padding: 10px;
-    height: auto;
-    width: auto;
-}
-nav a {
-    color: white;
-    margin: 20px;
-    padding: 10px;
-    display: block;
-}
-h1 {
-  background-color: var(--heading-background-color);
-  color: var(--heading-text-color);
-  font-family: var(--heading-font);
-  padding: var(--padding);
-}
-img {
-    width: 150px;
-    height: 100px;
-    border: 1px solid black;
-    padding: 2px;
-    box-shadow: 0 0 30px gray;
-}
-p {
-    padding: 0;
-    margin: 1rem;
-}
-main {
-    max-width: 840px;
-}
-aside {
-  float: left;
-  width: 250px;
-  margin: 1rem 2rem 1rem 0; /* 1 */
-  background-color: #eee;
-  border: 1px solid #ccc;
-  padding: 1rem;
-  border-radius: 8px;
-}
-aside img {
-    width: 200px;
-    height: auto;
-}
-aside h2 {
-    position: absolute;
-    top: 15px;
-    right: 125px;
-}
-footer {
-    margin-top: 15px;
-    border-top: 1px solid #000;
-    text-align: center;
-}
-/* Class Selectors */
-.box {
-  max-width: 400px;            /* limits how wide the box can be */
-  margin: 1.5rem auto;         /* smaller margin, centered horizontally */
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  padding: 0.8rem 1rem;        /* slightly smaller padding */
-  background-color: #ddd;
-  border-radius: 6px;          /* optional: rounded corners */
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); 
-}
-.indent {
-  padding-left: 2rem;
-}
-@media (min-width: 768px) {
-  .layout {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    gap: 2rem;
-  }
-}
-nav {
-  background-color: darkblue;
-  display: flex;                /* Places links in a row */
-  justify-content: center;      /* Centers them horizontally */
-  align-items: center;          /* Vertically aligns them */
-  gap: 2rem;                    /* Even space between links */
-  padding: 1rem;                /* Padding inside the nav bar */
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
 }
 
 nav a {
   color: white;
-  text-decoration: none;        
+  text-decoration: none;
   font-weight: bold;
   transition: color 0.3s ease;
-  display: block;
-  margin: 20px;
-  padding: 10px;
 }
 
 nav a:hover {
-  color: #ffd700;               
-}
-main::after {
-  content: "";
-  display: block;
-  clear: both;              /* pushes following elements below the image */
+  color: #ffd700;
 }
 
-main img {
+/* ===========================
+   MAIN LAYOUT
+=========================== */
+.content-layout {
+  display: flex;
+  flex-direction: row-reverse; /* Main on right, aside on left */
+  align-items: flex-start;
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+main {
+  flex: 3;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+}
+
+aside {
+  flex: 1;
+  background-color: #eee;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+aside img {
+  width: 100%;
+  border-radius: 8px;
+  margin-top: 1rem;
+}
+
+/* ===========================
+   MAIN CONTENT
+=========================== */
+h1, h2 {
+  font-family: var(--heading-font);
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+.profile-img {
   float: right;
   max-width: 250px;
   height: auto;
-  margin: 1rem;
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  margin: 0 0 1rem 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 1.5rem;
+}
+
+.box {
+  background-color: var(--accent-color);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  padding: 1rem;
+  margin: 1.5rem 0;
+  max-width: 400px; /* Smaller temple box */
+}
+
+.indent {
+  padding-left: 1.5rem;
+}
+
+/* ===========================
+   FOOTER
+=========================== */
+footer {
+  text-align: center;
+  background-color: var(--primary-color);
+  color: white;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+/* ===========================
+   RESPONSIVE DESIGN
+=========================== */
+@media (max-width: 768px) {
+  .content-layout {
+    flex-direction: column;
+  }
+
+  .profile-img {
+    float: none;
+    display: block;
+    margin: 1rem auto;
+  }
+
+  .box {
+    max-width: 100%;
+  }
 }
