@@ -97,15 +97,14 @@ h1, h2 {
   margin-bottom: 1rem;
 }
 
-.profile-img {
-  float: right;            /* Align to the right */
-  width: 150px;            /* Small size like the screenshot */
-  height: auto;            /* Maintain aspect ratio */
-  margin: 0 0 1rem 1rem;   /* Space between image and text */
-  border: 1px solid black; /* Add border like your other images */
-  box-shadow: 0 0 30px gray; /* Same shadow effect */
-  border-radius: 4px; 
-}
+main img {
+    width: 150px;
+    height: auto;
+    border: 1px solid black;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+    float: right;
+    margin: 1rem 1rem 1rem 1rem;}
 
 ul {
   list-style-type: square;
