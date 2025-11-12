@@ -135,25 +135,3 @@ footer {
   padding: 1rem;
   margin-top: 2rem;
 }
-
-/* ===========================
-   RESPONSIVE DESIGN
-=========================== */
-@media (max-width: 600px) {
-  .profile-img {
-    float: none;
-    display: block;
-    margin: 1rem auto;
-    width: 100px; /* even smaller on mobile */
-  }
-
-  .profile-img {
-    float: none;
-    display: block;
-    margin: 1rem auto;
-  }
-
-  .box {
-    max-width: 100%;
-  }
-}
