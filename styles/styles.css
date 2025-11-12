@@ -171,22 +171,23 @@ main img {
 
 /* aside rule */
 aside {
-  width: 200px;   
-  height: auto;
-  margin: 20px;             /* some margin around aside */
-  padding: 15px;            /* padding inside aside */
-  background-color: #f0f0f0;/* subtle background */
-  border: 1px solid #ccc;   /* light border */
-  border-radius: 8px;       /* rounded corners */
-  color: #333;
+    width: 20em;
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.2); /* 1 */
+    padding: 1rem;
+    background-color: #eee;
+    color: #333;
+    text-align: center;
+    position: relative;
 }
-
 aside img {
-  width: 200px;             /* required fixed width */
-  height: auto;             /* keep aspect ratio */
-  display: block;
-  margin-bottom: 15px;      /* space between image and text */
-  border-radius: 10px;      /* optional rounded corners on image */
+    width: 200px;
+    height: auto;
+}
+aside h2 {
+    position: absolute;
+    top: 15px;
+    right: 125px;
 }
 
 /* p rule */
