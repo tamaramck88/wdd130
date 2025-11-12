@@ -98,12 +98,13 @@ h1, h2 {
 }
 
 .profile-img {
-  float: right;
-  max-width: 250px;
-  height: auto;
+  float: right;                 /* keeps image on the right side of text */
+  width: 300px;                 /* larger size */
+  max-width: 100%;              /* responsive */
+  height: auto;                 /* keeps aspect ratio */
   border-radius: 8px;
-  margin: 0 0 1rem 1rem;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin: 0 0 1rem 1.5rem;      /* space between image and text */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
 
 ul {
