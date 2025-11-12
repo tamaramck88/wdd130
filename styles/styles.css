@@ -134,3 +134,64 @@ footer {
   padding: 1rem;
   margin-top: 2rem;
 }
+/* nav rule */
+nav {
+  background-color: #333; /* example color */
+  padding: 20px;          /* example padding */
+}
+
+/* nav a rule */
+nav a {
+  color: white;          /* example color */
+  padding: 10px;         /* example padding */
+  display: block;
+  text-decoration: none; /* optional but common */
+}
+
+/* main rule */
+main {
+  max-width: 1200px;     /* example max-width */
+  margin: 0 auto;        /* optional: center main content */
+}
+
+/* h1 rule */
+h1 {
+  color: #222;           /* example color */
+}
+
+/* main img rule (you said this one is fine) */
+main img {
+  width: 100%;
+  height: auto;
+  border: 2px solid #000;
+  padding: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+
+/* aside rule */
+aside {
+  width: 300px;          /* example width */
+  margin: 20px;          /* example margin */
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+/* aside img rule */
+aside img {
+  width: 200px;
+  height: auto;
+}
+
+/* p rule */
+p {
+  padding: 0;
+}
+
+/* footer rule */
+footer {
+  margin-top: 20px;
+  border-top: 1px solid #ccc;
+  text-align: center;
+}
