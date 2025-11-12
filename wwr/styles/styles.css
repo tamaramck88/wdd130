@@ -46,14 +46,12 @@ header nav a {
 }
 
 /* SOCIAL MEDIA LINKS */
-.social media a {
+.social-media a {
     text-decoration: none;
     margin-right: 8px;
 }
 
-/* HERO SECTION */
-./* HERO SECTION WITH BACKGROUND IMAGE */
-
+/* HERO SECTION WITH BACKGROUND IMAGE */
 .hero {
     position: relative;
     width: auto;
