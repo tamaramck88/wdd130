@@ -171,18 +171,22 @@ main img {
 
 /* aside rule */
 aside {
-  width: 200px;          /* example width */
-  margin: 20px;          /* example margin */
-  border: 1px solid #ccc;
-  padding: 10px;
-  background-color: #f0f0f0;
+  width: 200px;   
+  height: auto;
+  margin: 20px;             /* some margin around aside */
+  padding: 15px;            /* padding inside aside */
+  background-color: #f0f0f0;/* subtle background */
+  border: 1px solid #ccc;   /* light border */
+  border-radius: 8px;       /* rounded corners */
   color: #333;
 }
 
-/* aside img rule */
 aside img {
-  width: 200px;
-  height: auto;
+  width: 200px;             /* required fixed width */
+  height: auto;             /* keep aspect ratio */
+  display: block;
+  margin-bottom: 15px;      /* space between image and text */
+  border-radius: 10px;      /* optional rounded corners on image */
 }
 
 /* p rule */
