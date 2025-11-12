@@ -105,3 +105,25 @@ footer {
     gap: 2rem;
   }
 }
+nav {
+  background-color: darkblue;
+  display: flex;                /* Places links in a row */
+  justify-content: center;      /* Centers them horizontally */
+  align-items: center;          /* Vertically aligns them */
+  gap: 2rem;                    /* Even space between links */
+  padding: 1rem;                /* Padding inside the nav bar */
+}
+
+nav a {
+  color: white;
+  text-decoration: none;        
+  font-weight: bold;
+  transition: color 0.3s ease;
+  display: block;
+  margin: 20px;
+  padding: 10px;
+}
+
+nav a:hover {
+  color: #ffd700;               
+}
