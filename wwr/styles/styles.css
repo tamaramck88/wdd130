@@ -51,22 +51,20 @@
     left: 20px;
     background-color: rgba(255, 255, 255, 0.85);
     padding: 16px;
-    max-width: 420px;
+    width: 480px;             /* FIXED WIDTH so text sits beside the image */
     border-radius: 8px;
     z-index: 3;
 
-    /* The FIX — flexbox */
     display: flex;
     gap: 16px;
     align-items: flex-start;
 }
-
-/* Image inside hero article */
 .hero article img {
     width: 130px;
     height: auto;
     border-radius: 8px;
-    flex-shrink: 0;
-    box-shadow: 2px 2px 6px rgba(0,0,0,0.3);
+    flex-shrink: 0;  /* prevents image from shrinking */
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
 }
+
 
