@@ -88,7 +88,7 @@ header nav a {
 }
 
 .hero article img {
-    float: right;
+    float: left;
     width: 125px;
     margin-left: 16px;
     border-radius: 8px;
