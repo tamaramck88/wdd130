@@ -139,7 +139,6 @@ header nav a {
     overflow: hidden;
 }
 
-/* The hero background image with gradient overlay */
 .hero::before {
     content: "";
     position: absolute;
