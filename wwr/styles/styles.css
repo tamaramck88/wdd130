@@ -2,9 +2,9 @@
    CSS VARIABLES
 ================================ */
 :root {
-    --primary-color: #003366;     /* navy blue */
+    --primary-color: #074079;     /* navy blue */
     --secondary-color: #ffcc00;   /* golden yellow */
-    --accent1-color: #0a3d62;     /* deep blue */
+    --accent1-color: #b9c5ce;     /* deep blue */
     --accent2-color: #e7f2f8;     /* very light blue */
     --heading-font: "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
@@ -32,10 +32,7 @@ body {
 header, main, footer {
     width: 840px;
     margin: 0 auto;
-    background-color: var(--primary-color);
-    padding: 1rem 0;
-    text-align: center;
-}
+  }
 
 /* ================================
    HEADINGS
