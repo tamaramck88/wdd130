@@ -113,7 +113,7 @@ nav a {
 /* Image inside hero article FLOATS RIGHT */
 .hero article img {
     float: right;
-    width: 125px;
+    width: 140px;
     border-radius: 6px;
     margin-left: 16px;
     box-shadow: 3px 3px 7px rgba(0,0,0,0.4);
