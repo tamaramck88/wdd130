@@ -1,11 +1,7 @@
-/* ============================
-   CSS VARIABLES
-============================ */
+
 :root {
   --primary-color: rgb(58, 58, 234); /* blue */
-  --secondary-color: rgb(47, 193, 242); /* light blue */
   --accent1-color: black; /* black */
-  --accent2-color: rgba(0, 0, 205, 0.495); /* dark blue */
   --heading-font: "Times New Roman", "Georgia", serif;
   --body-font: Arial, Helvetica, sans-serif;
 }
