@@ -55,7 +55,7 @@ h1 {
   text-align: center;
   opacity: 0.7;
   background-color: var(--accent1-color);
-  color: #fff; /* white text – make sure there is enough contrast with the background-color */
+  color: mediumblue; /* white text – make sure there is enough contrast with the background-color */
 }
 
 .hero article img {
