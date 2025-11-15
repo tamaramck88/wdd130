@@ -13,18 +13,12 @@
   box-sizing: border-box;
 }
 
-
-/* ---------------- GLOBAL ---------------- */
-
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6;
     background: #ffffff;
 }
-
-
-/* ---------------- HEADER ---------------- */
 
 header {
     display: flex;
@@ -48,9 +42,6 @@ header nav a:hover {
     text-decoration: underline;
 }
 
-
-/* ---------------- HERO SECTION ---------------- */
-
 .hero {
     position: relative;
     width: 100%;
@@ -61,7 +52,6 @@ header nav a:hover {
     height: auto;
 }
 
-/* Dark overlay title bar */
 .hero h1 {
     position: absolute;
     top: 0;
@@ -75,7 +65,6 @@ header nav a:hover {
     margin: 0;
 }
 
-/* Mission article box (floating box under hero) */
 .hero article {
     position: absolute;
     bottom: 20px;
@@ -101,9 +90,6 @@ header nav a:hover {
     border-radius: 4px;
 }
 
-
-/* ---------------- CONTENT SECTIONS ---------------- */
-
 main section {
     width: 90%;
     margin: 40px auto;
@@ -121,9 +107,6 @@ main p {
     padding: 10px;
     font-size: 1rem;
 }
-
-
-/* ---------------- FOOTER ---------------- */
 
 footer {
     text-align: center;
