@@ -50,6 +50,8 @@ header nav a:hover {
 .hero img {
     width: 100%;
     height: auto;
+    margin: auto;
+    overflow-clip-margin: content-box;
 }
 
 .hero h1 {
