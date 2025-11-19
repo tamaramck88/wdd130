@@ -6,27 +6,18 @@
   --body-font: Arial, Helvetica, sans-serif;
 }
 
-/* ============================
-   UNIVERSAL RESET
-============================ */
 *, *::before, *::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* ============================
-   PAGE BASICS
-============================ */
 body {
     font-family: var(--body-font);
     line-height: 1.6;
     background: #ffffff;
 }
 
-/* ============================
-   HEADER
-============================ */
 header {
     display: flex;
     align-items: center;
@@ -49,9 +40,6 @@ header nav a:hover {
     text-decoration: underline;
 }
 
-/* ============================
-   HERO SECTION
-============================ */
 .hero {
     position: relative;
     width: 100%;
@@ -74,7 +62,6 @@ header nav a:hover {
     letter-spacing: 1px;
 }
 
-/* Fixed to match audit: float layout (no flexbox) */
 .hero article {
     position: absolute;
     bottom: 20px;
@@ -99,9 +86,6 @@ header nav a:hover {
     margin: 0;
 }
 
-/* ============================
-   MAIN CONTENT
-============================ */
 main section {
     width: 90%;
     margin: 40px auto;
@@ -121,9 +105,6 @@ main p {
     font-size: 1rem;
 }
 
-/* ============================
-   FOOTER
-============================ */
 footer {
     text-align: center;
     padding: 25px 0;
