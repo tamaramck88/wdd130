@@ -81,6 +81,10 @@ aside {
   position: relative;
 }
 
+aside img {
+    width: 200px;
+    height: auto;
+}
 h1 {
   font-family: var(--heading-font);
   color: var(--primary-color);
