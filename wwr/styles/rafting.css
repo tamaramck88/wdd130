@@ -146,7 +146,7 @@ main p {
 }
 
 .history-section h2 {
-  text-align: center;
+  text-align: left;
   margin-bottom: 20px;
   font-family: var(--heading-font);
 }
@@ -154,14 +154,14 @@ main p {
 /* The important part */
 .history {
   display: grid;
-  grid-template-columns: 1fr 200px 1fr;   /* left | center | right */
+  grid-template-rows: 1fr 1fr 1fr;   /* left | center | right */
   gap: 30px;
   align-items: center;
 }
 
 /* Center image styling */
 .history img {
-  width: 100%;
+  width: 40%;
   background: #3f2f85;    /* purple box like your wireframe */
   padding: 20px;
   border-radius: 6px;
@@ -171,6 +171,7 @@ main p {
 .history p {
   font-size: 1rem;
   line-height: 1.5;
+  text-align: right;
 }
 
 /* Responsive stacking */
