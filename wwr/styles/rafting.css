@@ -154,7 +154,8 @@ main p {
 /* The important part */
 .history {
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr;   /* left | center | right */
+  grid-template-rows: 1fr 2fr 1fr;   /* left | center | right */
+  grid-template-columns: auto;
   gap: 30px;
   align-items: center;
 }
