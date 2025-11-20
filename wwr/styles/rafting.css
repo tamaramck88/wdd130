@@ -134,7 +134,7 @@ main p {
 }
 
 /* ============================
-   HISTORY SECTION (MATCHES WIREFRAME)
+   HISTORY SECTION (3-COLUMN LAYOUT)
 ============================ */
 .history-section {
   width: 90%;
@@ -151,22 +151,29 @@ main p {
   font-family: var(--heading-font);
 }
 
-/* 3-column layout */
+/* The important part */
 .history {
   display: grid;
-  grid-template-columns: 1fr 180px 1fr;
-  gap: 25px;
+  grid-template-columns: 1fr 200px 1fr;   /* left | center | right */
+  gap: 30px;
   align-items: center;
 }
 
+/* Center image styling */
 .history img {
   width: 100%;
-  background: #42358d;  /* purple box behind image */
+  background: #3f2f85;    /* purple box like your wireframe */
   padding: 20px;
   border-radius: 6px;
 }
 
-/* Responsive: stack columns */
+/* Paragraph formatting */
+.history p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* Responsive stacking */
 @media (max-width: 800px) {
   .history {
     grid-template-columns: 1fr;
@@ -174,10 +181,11 @@ main p {
   }
 
   .history img {
+    width: 220px;
     margin: 0 auto;
-    width: 200px;
   }
 }
+
 
 /* ============================
    ADVENTURES SECTION (MATCHES WIREFRAME)
