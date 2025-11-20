@@ -134,11 +134,21 @@ main p {
    HISTORY SECTION
 ============================ */
 .history {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  flex-direction: row;
   gap: 20px;
   align-items: center;
+  justify-content: center;
   padding: 2rem 0;
+  flex-wrap: wrap;
+}
+
+/* Responsive: stack history on small screens */
+@media (max-width: 768px) {
+  .history {
+    flex-direction: column;
+    text-align: center;
+  }
 }
 
 .history img {
@@ -150,10 +160,20 @@ main p {
    ADVENTURES SECTION
 ============================ */
 .adventures {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  display: flex;
+  flex-direction: row;
   gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
   text-align: center;
+}
+
+/* Responsive: adjust image sizing on smaller screens */
+@media (max-width: 768px) {
+  .adventures img {
+    width: 150px;
+    height: 120px;
+  }
 }
 
 .adventures img {
@@ -190,4 +210,3 @@ footer .social img {
   width: 32px;
   height: 32px;
 }
-
