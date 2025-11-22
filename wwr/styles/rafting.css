@@ -1,6 +1,6 @@
 :root {
   --primary-color: rgb(58, 58, 234);
-  --accent1-color: black;
+  --accent1-color: var(--primary-color);
   --heading-font: "Times New Roman", "Georgia", serif;
   --body-font: Arial, Helvetica, sans-serif;
 }
@@ -39,7 +39,7 @@ header nav a {
   background: white;
   padding: 10px 25px;
   text-decoration: none;
-  color: black;
+  color: white;
   font-weight: bold;
   border: 2px solid black;
   border-radius: 6px;
@@ -253,4 +253,11 @@ footer .social img {
   height: 32px;
   filter: brightness(0) invert(1);
 }
+.socialmedia a {
+    text-decoration: none;
+}
 
+.socialmedia img {
+    width: 40px;
+    margin: 0 10px;
+}
