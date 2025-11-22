@@ -1,6 +1,6 @@
 :root {
   --primary-color: rgb(58, 58, 234);
-  --accent1-color: var(--primary-color);
+  --color: var(--primary-color);
   --heading-font: "Times New Roman", "Georgia", serif;
   --body-font: Arial, Helvetica, sans-serif;
 }
@@ -253,11 +253,18 @@ footer .social img {
   height: 32px;
   filter: brightness(0) invert(1);
 }
+.socialmedia {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
 .socialmedia a {
     text-decoration: none;
 }
 
 .socialmedia img {
     width: 40px;
-    margin: 0 10px;
+    height: auto;
 }
