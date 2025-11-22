@@ -1,6 +1,5 @@
 :root {
   --primary-color: rgb(58, 58, 234);
-  --color: var(--primary-color);
   --heading-font: "Times New Roman", "Georgia", serif;
   --body-font: Arial, Helvetica, sans-serif;
 }
