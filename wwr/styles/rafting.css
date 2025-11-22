@@ -24,6 +24,7 @@ header {
   justify-content: space-between;
   align-items: center;
   border-bottom: 3px solid #000;
+  color: white;
 }
 
 header #logo {
