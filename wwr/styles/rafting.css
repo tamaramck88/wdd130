@@ -155,9 +155,9 @@ main p {
 .history {
   display: grid;
   grid-template-rows: 1fr 2fr 1fr;   /* left | center | right */
-  grid-template-columns: auto;
+  grid-template-columns: 1fr 2fr 1fr ;  /* image in center */
   gap: 30px;
-  align-items: center;
+  align-items: row;
 }
 
 /* Center image styling */
@@ -166,6 +166,9 @@ main p {
   background: #3f2f85;    /* purple box like your wireframe */
   padding: 20px;
   border-radius: 6px;
+  display: grid;
+  grid-template-rows: 1fr 2fr 1fr;   /* left | center | right */
+  grid-template-columns: auto;
 }
 
 /* Paragraph formatting */
@@ -173,6 +176,9 @@ main p {
   font-size: 1rem;
   line-height: 1.5;
   text-align: right;
+  display: grid;
+  grid-template-rows: 1fr 2fr 1fr;   /* left | center | right */
+  grid-template-columns: auto;
 }
 
 /* Responsive stacking */
