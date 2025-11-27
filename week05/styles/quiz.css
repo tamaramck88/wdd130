@@ -6,9 +6,6 @@
 
 main {
     max-width: 500px;
-    margin: 1rem;
-    border: 1px solid black;
-    padding: 1rem;
     background-color: lightslategray;
     color: black;
 }
@@ -16,8 +13,41 @@ h1 {
     margin: 1rem;
 }
 form { 
-    margin: 1rem;
-    border: 1px solid black;
-    padding: 1rem;
     background-color: lightgray;
+    color: black
+}
+
+input, 
+textarea, 
+select, button {
+    padding: 1rem;
+    width: 350px;
+}
+
+button {
+    margin: 1rem;
+    background-color: navy;
+    color: white;
+    border: none;
+    text-align: center;
+    display: block;
+    border-radius: .5rem;
+}
+
+code {
+    display: block;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.box {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid black (0 0 0 / 10%);
+}
+
+quiz-item {
+    display: block;
+    margin-bottom: 1rem;
 }
