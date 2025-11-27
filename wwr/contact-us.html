@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Contact Whitewater Rafting for questions, reservations, or suggestions. Get our location, staff info, and send us a message.">
+    <meta name="description" content="Contact Whitewater Rafting for questions, reservations, or suggestions. View our location, meet our staff, and send us a message through our contact form.">
     <meta name="author" content="Tamara McKnight">
-    <title>Contact Us - Whitewater Rafting</title>
+    <title>Whitewater Rafting | Contact Us</title>
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
 
 <body>
-    
+
     <header>
         <img src="images/wwrlogo.png" alt="Whitewater Rafting Logo" id="logo">
 
@@ -22,20 +23,21 @@
         </nav>
     </header>
 
-    <main>
+    <main class="contact-page">
 
         <h1>Contact Us</h1>
 
         <section class="company-info">
             <h2>Company Information</h2>
 
-            <p><strong>Address:</strong> 123 Rapids Way, Riverbend, CO 80422</p>
-            <p><strong>Phone:</strong> (555) 555-1234</p>
-            <p><strong>Email:</strong> contact@wwrrafting.com</p>
+            <p><strong>Address:</strong> 17 Vaal Ridge Close, Vaal River 1709</p>
+            <p><strong>Phone:</strong> +27 84 879 0564</p>
+            <p><strong>Email:</strong> info@wwrrafting.com</p>
 
             <div class="map-container">
+
                 <iframe
-                    src="https://www.google.com/maps/embed?pb=YOUR_EMBED_CODE_HERE"
+                    src="https://www.google.com/maps/embed?pb=YOUR_FULL_EMBED_CODE"
                     width="600"
                     height="400"
                     allowfullscreen=""
@@ -51,17 +53,17 @@
 
                 <figure>
                     <img src="images/wwr3-small.jpg" alt="Sarah, Lead Guide">
-                    <figcaption>Sarah – Lead Guide</figcaption>
+                    <figcaption>Sarah — Lead Guide</figcaption>
                 </figure>
 
                 <figure>
-                    <img src="images/wwr4.jpg" alt="Paul, Safety Manager">
-                    <figcaption>Paul – Safety Manager</figcaption>
+                    <img src="images/wwr4-small.jpg" alt="Paul, Safety Manager">
+                    <figcaption>Paul — Safety Manager</figcaption>
                 </figure>
 
                 <figure>
-                    <img src="images/wwr5.jpg" alt="Lisa, Office Manager">
-                    <figcaption>Lisa – Office Manager</figcaption>
+                    <img src="images/wwr5-small.jpg" alt="Lisa, Office Manager">
+                    <figcaption>Lisa — Office Manager</figcaption>
                 </figure>
 
             </div>
@@ -70,7 +72,7 @@
         <section class="contact-form">
             <h2>Send Us a Message</h2>
 
-            <form>
+            <form action="#" method="post">
 
                 <label for="name">Your Name:</label>
                 <input type="text" id="name" name="name" required>
@@ -81,16 +83,27 @@
                 <fieldset>
                     <legend>Purpose of Message</legend>
 
-                    <label><input type="radio" name="purpose" value="general" required> General Inquiry</label>
-                    <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label>
-                    <label><input type="radio" name="purpose" value="suggestion"> Website Suggestion</label>
+                    <div class="radio-group">
+                        <input type="radio" id="general" name="purpose" value="general" required>
+                        <label for="general">General Inquiry</label>
+                    </div>
+
+                    <div class="radio-group">
+                        <input type="radio" id="reservation" name="purpose" value="reservation">
+                        <label for="reservation">Reservation Question</label>
+                    </div>
+
+                    <div class="radio-group">
+                        <input type="radio" id="suggestion" name="purpose" value="suggestion">
+                        <label for="suggestion">Website Suggestion</label>
+                    </div>
                 </fieldset>
 
                 <label for="message">Message:</label>
                 <textarea id="message" name="message" rows="6" required></textarea>
 
                 <label class="checkbox">
-                    <input type="checkbox" name="subscribe">
+                    <input type="checkbox" id="subscribe" name="subscribe">
                     Please subscribe me to the monthly newsletter
                 </label>
 
@@ -102,7 +115,7 @@
     </main>
 
     <footer>
-        <p>©️ 2025 💦 Whitewater Rafting 💦 | Tamara McKnight</p>
+        <p>&copy; 2025 💦 Whitewater Rafting 💦 | Tamara McKnight</p>
 
         <nav class="socialmedia">
             <a href="https://www.facebook.com">
