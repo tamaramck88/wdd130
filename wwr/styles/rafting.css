@@ -174,7 +174,6 @@ main p {
 
 @media (max-width: 800px) {
   .history {
-    grid-template-columns: 1fr;
     text-align: center;
   }
 
