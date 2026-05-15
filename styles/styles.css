@@ -13,13 +13,17 @@
 body {
     font-family: Arial, sans-serif;
     color: var(--accent-color);
-    background-color: #ffffff;
+    background-color: #f5f5f5;
+    line-height: 1.5;
 }
 
 /* Navigation */
 nav {
     background-color: steelblue;
     padding: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
 }
 
 nav a {
@@ -27,19 +31,84 @@ nav a {
     padding: 0.5rem;
     display: block;
     text-decoration: none;
+    font-weight: bold;
 }
 
-/* Main Content */
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main Layout */
 main {
     max-width: 840px;
-    margin: 0 auto;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #ffffff;
+    border-radius: 8px;
 }
 
+/* Heading */
 h1 {
     color: var(--primary-color);
     margin-bottom: 1rem;
+    text-align: center;
 }
 
+/* Profile Image */
+main img {
+    width: 150px;
+    height: auto;
+    border: 1px solid #000000;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+    float: right;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* Paragraphs */
+p {
+    padding: 0;
+    margin-bottom: 1rem;
+}
+
+/* Aside Section */
+aside {
+    width: 20rem;
+    margin: 2rem auto;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 1rem;
+    background-color: #eeeeee;
+    color: #333333;
+    border-radius: 8px;
+    text-align: center;
+}
+
+aside h2 {
+    margin-bottom: 1rem;
+    color: steelblue;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+/* Lists */
+ul {
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+/* Footer */
+footer {
+    margin-top: 2rem;
+    border-top: 1px solid #cccccc;
+    text-align: center;
+    padding: 1rem;
+    background-color: #ffffff;
+}
 main img {
     width: 150px;
     height: auto;
